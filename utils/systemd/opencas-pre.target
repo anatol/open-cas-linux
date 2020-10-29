@@ -1,0 +1,7 @@
+#  SPDX-License-Identifier: LGPL-2.1+
+
+[Unit]
+Description=Local OpenCAS Volumes (Pre)
+Documentation=man:systemd.special(7)
+RefuseManualStart=yes
+Before=opencas.target

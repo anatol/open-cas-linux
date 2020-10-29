@@ -1,0 +1,11 @@
+#  SPDX-License-Identifier: LGPL-2.1+
+
+[Unit]
+Description=Remote OpenCAS Volumes
+Documentation=man:systemd.special(7)
+After=remote-fs-pre.target opencas-pre.target
+DefaultDependencies=no
+Conflicts=shutdown.target
+
+[Install]
+WantedBy=multi-user.target

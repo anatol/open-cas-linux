@@ -1,0 +1,5 @@
+#  SPDX-License-Identifier: LGPL-2.1+
+
+[Unit]
+Description=Local OpenCAS Volumes
+Documentation=man:systemd.special(7)
